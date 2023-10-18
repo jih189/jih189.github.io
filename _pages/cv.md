@@ -1,12 +1,10 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-Resume
-======
-[Download PDF here](https://jiaming-hu.github.io/files/Resume.pdf)
+<embed src="{{ site.baseurl }}/files/Resume.pdf" width="600" height="700" type='application/pdf'>
