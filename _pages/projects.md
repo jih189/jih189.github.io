@@ -13,6 +13,8 @@ Intelligent home robots: An intelligent home robot is exemplified by a robot tha
 
 I am responsible for the task planning part, which includes the task decomposition, task sequencing, and task scheduling. I am also responsible for the motion planning part, which includes the motion planning for the robot arm and the mobile base.
 
+<img src='/images/homerobot1.png' width="500">
+
 ASSEMBLY PROJECT(2018-2019)
 ======
 The [Assembly project](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qsb8eYwAAAAJ&citation_for_view=qsb8eYwAAAAJ:u-x6o8ySG0sC) entails designing an end-to-end pipeline for assembling products from individual parts using two UR5 robotic arms. This pipeline encompasses three primary stages: perception, planning, and execution.
