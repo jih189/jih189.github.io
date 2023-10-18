@@ -27,4 +27,6 @@ In this endeavor, my responsibilities span several crucial areas:
 
 <b>Control</b>: I employed impedance control, ensuring the robotic arms assemble the parts with precision.
 
-<img src='/images/assembly1.png'>
+<img src='/images/assembly1.png' width="500">
+<img src='/images/assembly2.png' width="500">
+<img src='/images/assembly3.png' width="500">
