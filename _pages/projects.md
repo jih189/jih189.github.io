@@ -15,13 +15,13 @@ I am responsible for the task planning part, which includes the task decompositi
 
 ASSEMBLY PROJECT(2018-2019)
 ======
-The Assembly project entails designing an end-to-end pipeline for assembling products from individual parts using two UR5 robotic arms. This pipeline encompasses three primary stages: perception, planning, and execution.
+The [Assembly project](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qsb8eYwAAAAJ&citation_for_view=qsb8eYwAAAAJ:u-x6o8ySG0sC) entails designing an end-to-end pipeline for assembling products from individual parts using two UR5 robotic arms. This pipeline encompasses three primary stages: perception, planning, and execution.
 
 In this endeavor, my responsibilities span several crucial areas:
 
 <b>System Integration</b>: I configured the URDF file for the complete system and seamlessly incorporated the gripper into the planning scene.
 
-<b>Perception</b>: I pioneered our proprietary deep learning method to accurately estimate the 6D pose of objects.
+<b>Perception</b>: I pioneered our [deep learning method](https://arxiv.org/pdf/2011.00372.pdf) to accurately estimate the 6D pose of objects.
 
 <b>Planning</b>: I crafted a constraint-based planning approach to methodically generate the assembly sequence.
 
