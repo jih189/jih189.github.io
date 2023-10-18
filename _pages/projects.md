@@ -26,3 +26,5 @@ In this endeavor, my responsibilities span several crucial areas:
 <b>Planning</b>: I crafted a constraint-based planning approach to methodically generate the assembly sequence.
 
 <b>Control</b>: I employed impedance control, ensuring the robotic arms assemble the parts with precision.
+
+<embed src="{{ site.baseurl }}/images/assembly1.png" type='application/png'>
