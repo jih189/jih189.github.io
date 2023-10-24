@@ -19,6 +19,8 @@ Jiaming Hu<sup>*</sup>, Shrutheesh R Iyer<sup>*</sup>, Henrik I Christensen. <b>
 Publications
 ======
 
+Shrutheesh Raman Iyer, Anwesan Pal, Jiaming Hu, Akanimoh Adeleye, Aditya Aggarwal and Henrik I. Christensen (2023). <b>Household navigation and manipulation for everyday object rearrangement tasks</b>. International Conference on Robotic Computing (IRC).
+
 Jiaming Hu , Zhao Tang , Henrik I. Christensen (2023). <b>Multi-modal planning on re-grasping for stable manipulation</b>. International Conference on Intelligent Robots and Systems (IROS).
 
 Jiaming Hu<sup>*</sup>, Akanimoh Adeleye<sup>*</sup>, Henrik I. Christensen (2022). <b>Place-And-Pick-Based Re-Grasping Using Unstable Placement</b>. The International Symposium on Robotics Research (ISRR).
