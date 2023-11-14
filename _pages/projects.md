@@ -21,17 +21,57 @@ The [Assembly project](https://scholar.google.com/citations?view_op=view_citatio
 
 In this endeavor, my responsibilities span several crucial areas:
 
-<b>System Integration</b>: I configured the URDF file for the complete system and seamlessly incorporated the gripper into the planning scene.
+<b>System Integration</b>: Setup the whole system on the ROS platform. This system contains multiple components such as object/pose detection, assembly task and motion planning, and force control.
 
 <b>Perception</b>: I pioneered our [deep learning method](https://arxiv.org/pdf/2011.00372.pdf) to accurately estimate the 6D pose of objects.
+
+Here is demonstration how our system detect the object which is not in predicted location.
+<center>
+    <video width="640" height="480" controls>
+        <source src="/videos/object_detection.mp4" type="video/mp4">
+    </video>
+</center>
 
 <b>Planning</b>: I crafted a constraint-based planning approach to methodically generate the assembly sequence.
 
 <b>Control</b>: I employed impedance control, ensuring the robotic arms assemble the parts with precision.
-<video width="320" height="240" controls>
+
+Following is the video of how our system handle the possible noise during manipulation. Using the task and motion planning with impedance control, our system can detect the manipulation failure and select the proper action to recover it.
+
+<div id="videoal">
+<table>
+    <tr>
+        <td>
+        <center>
+            <video width="320" height="240" controls>
+                <source src="/videos/assembly1.mp4" type="video/mp4">
+            </video>
+        </center>
+       </td>
+       <td>
+         <center>
+           <video width="320" height="240" controls>
+              <source src="/videos/assembly2.mp4" type="video/mp4">
+           </video>
+          </center>
+       </td>
+       <td>
+         <center>
+           <video width="320" height="240" controls>
+              <source src="/videos/assembly3.mp4" type="video/mp4">
+           </video>
+          </center>
+       </td>
+    </tr>
+</table>
+</div>
+
+<!-- <center>
+<video width="640" height="480" controls>
   <source src="/videos/assembly1.mp4" type="video/mp4">
 </video>
-
+</center> -->
+<!-- 
 <img src='/images/assembly1.png' width="500">
 <img src='/images/assembly2.png' width="500">
-<img src='/images/assembly3.png' width="500">
+<img src='/images/assembly3.png' width="500"> -->
