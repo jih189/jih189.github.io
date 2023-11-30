@@ -38,6 +38,13 @@ Here is demonstration how our system detect the object which is not in predicted
     </video>
 </center>
 
+Here is the example of how our system tracking the object during manipulation.
+<center>
+    <video width="640" height="480" controls>
+        <source src="/videos/tracking.mp4" type="video/mp4">
+    </video>
+</center>
+
 <b>Planning</b>: I crafted a constraint-based planning approach to methodically generate the assembly sequence.
 
 <b>Control</b>: I employed impedance control, ensuring the robotic arms assemble the parts with precision.
