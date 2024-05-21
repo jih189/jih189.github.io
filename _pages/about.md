@@ -11,13 +11,10 @@ redirect_from:
 I am a Ph.D. student in the Department of Computer Science and Engineering at UC San Diego. I have the privilege of conducting my research in the [Cognitive Robotics Lab](https://www.cogrob.org/), under the esteemed guidance of [Prof. Henrik I. Christensen](https://www.hichristensen.com/). My primary research revolves around task and motion planning for mobile robots, with a particular emphasis on home service robots. Additionally, I possess a keen interest in exploring perception for manipulation.
 
 
-Under Review
-======
-ICRA 2024:
-Jiaming Hu<sup>*</sup>, Shrutheesh R Iyer<sup>*</sup>, Henrik I Christensen. <b>An Experience-based TAMP Framework for Foliated Manifolds</b>. arXiv preprint arXiv:2310.08494.
-
 Publications
 ======
+
+Jiaming Hu<sup>*</sup>, Shrutheesh Raman Iyer<sup>*</sup>, Jiawei Wang and Henrik I. Christensen (2024). <b>Motion Planning in Foliated Manifolds using Repetition Roadmap</b> Robotics: Science and Systems (RSS).
 
 Shrutheesh Raman Iyer, Anwesan Pal, Jiaming Hu, Akanimoh Adeleye, Aditya Aggarwal and Henrik I. Christensen (2023). <b>Household navigation and manipulation for everyday object rearrangement tasks</b>. International Conference on Robotic Computing (IRC).
 
