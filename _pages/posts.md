@@ -2,7 +2,6 @@
 layout: archive
 title: "Study Posts"
 permalink: /posts/
-author_profile: true
 redirect_from:
   - /posts
 ---
