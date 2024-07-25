@@ -34,7 +34,9 @@ In this section, I will give a purpose explanation about important directories a
 
 
 ### `IsaacLabExtensionTemplate/`
-- **`exts/`**: 
+- **`exts/`**: Your extensions to the IsaacLab.
+    - <span style="color: green;">**`ext_template/`**</span>: The actual template of your extension.
+
 - **`scripts/`**: Where you place the workflow scripts for your RL library. There are some workflow examples in **`source/standalone/workflow`**.
     - **`rsl_rl/`**: The workflow script of rsl_rl as example.
         - `cli_args.py`: Python script that typically handles command-line arguments for configuring various aspects of your RL library.
