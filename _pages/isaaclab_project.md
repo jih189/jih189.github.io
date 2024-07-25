@@ -35,7 +35,34 @@ In this section, I will give a purpose explanation about important directories a
 
 ### `IsaacLabExtensionTemplate/`
 - **`exts/`**: Your extensions to the IsaacLab.
-    - <span style="color: green;">**`ext_template/`**</span>: The actual template of your extension.
+    - <span style="color: blue;">**`ext_template/`**</span>: The actual template of your extension. You can rename it by `python scripts/rename_template.py extension_name`.
+        - **`config/`**:
+            - `extension.toml`: Configuration file of your extension. It dictate how the extension is integrated into IsaacSim, ROS, and etc. <span style="color: blue;"> You should modify your extension name here</span>.
+        - **`docs/`**: Save your template doc here.
+        - **`ext_template/`**: The source of your template. It will be renamed by the script as well.
+            - **`tasks/`**: This direcotry contains all tasks of your project.
+                - **`locomotion/`**: Tasks related to locomotion such as legged robot.
+                    - **`velocity/`**: Directory for the velocity task, where the robot's movement is controlled based on velocity.
+                        - **`config/`**:
+                            - **`anymal_d/`**:
+                                - **`agents/`**:
+                                    - `__init__.py`:
+                                    - `rsl_rl_cfg.py`:
+                                - `__init__.py`:
+                                - `flat_env_cfg.py`:
+                                - `rough_env_cfg.py`:
+                            - `__init__.py`:
+                        - **`mdp/`**: You can overwrite the mdp here.
+                            - `__init__.py`: Include your overwriten in the mdp.
+                            - `curriculumns.py`: Defines the way how you increase the task's difficulty as the agent training progess.
+                            - `rewards.py`: Defines the reward terms for the agent.
+                        - `__init__.py`: Empty here.
+                        - `velocity_env_cfg.py`: The configuration file for the task environment.
+                    - `__init__.py`: Marks other directories here as modules.
+                - `__init__.py`: I do not know what is this for, so <span style="color: red;">Do not modify</span>.
+            - **`assets/`**: <span style="color: green;">This is usually optional</span> because you can use those default assets provided by IsaacLab. This directory contains all assets of your project.
+            - `__init__.py`: This file is used to mark the directory as a Python package. To import modules from this directory, you can use `from .YourDirectory import *`, replacing YourDirectory with the actual directory name. For example, if you have the a directory to save assets, then you should import it here.
+        - `setup.py`: Python script used for install the necessary python packages for your project. <span style="color: red;">Do not modify</span>.
 
 - **`scripts/`**: Where you place the workflow scripts for your RL library. There are some workflow examples in **`source/standalone/workflow`**.
     - **`rsl_rl/`**: The workflow script of rsl_rl as example.
