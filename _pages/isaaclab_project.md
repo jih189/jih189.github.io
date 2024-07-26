@@ -19,7 +19,22 @@ Throughout the repository, the name ext_template only serves as an example and i
 python scripts/rename_template.py your_fancy_extension_name
 ```
 
-<H2> Template Explanation </H2>
+<H2>Start Your Project</H2>
+In IsaacLab, a "task" encompasses everything involved in the training process. Specifically, it includes both the [environment](https://isaac-sim.github.io/IsaacLab/source/features/environments.html) and the robot(agent). To start your own RL project, you'll need to configure both the environment and the robot within this task.
+
+In this section, I'll provide a brief overview of how these two elements are organized within the project template and explain the underlying principles. For more detailed information, please refer to the additional tutorials that will be provided.
+
+<H3>Environment Configuration</H3>
+Environment defines the actual task and assets(ground, light, and objects except the robot) in the scene. Usually, the environment configuration file will be in the root of task directory, and named as "[task name]_env_cfg.py". In thie environment configuration you need to provide scene settings, basic settings, and MDP settings. If you want to modify the MDP setting here, you should create a MDP directory in the root to overwrite MDP terms.
+
+<H3>Robot Configuration</H3>
+The robot configuration defines the interface how the robot to complete the task, and here does not contain the actual detail of the robot such as mesh or material. This should be maintained in the `cofig` directory for each robot. In each robot, you need to do following steps:
+
+- Provide the parameter setting for each RL library. Saved it in the agents directory.
+- Overwrite the environment configuration by including the robot. For example, if the task of environment is to grasp the box with gripper(which we did not define the actual gripper), then here we need to define this gripper to be the gripper of the robot you want to use.
+- Registrate the task in `__init__.py`
+
+<H2> Template Organization Explanation </H2>
 
 In this section, I will give a purpose explanation about important directories and files in the template.
 
