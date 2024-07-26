@@ -50,15 +50,18 @@ The agent directory is where you build the task configurations for different rob
 Now, I will give more detail of each modules.
 
 <H3>agents/</H43>
+
 Here is the directory where you set the model parameter for each RL library. You can check the example from [here](https://github.com/isaac-sim/IsaacLabExtensionTemplate/tree/dcebe2325631917123912ee0220288f412ac256a/exts/ext_template/ext_template/tasks/locomotion/velocity/config/anymal_d/agents).
 
 <H3>[your robot]_[your task]_env_cfg.py</H3>
+
 This file defines how the robot should be set for the task. For example, set the scene robot, set the random range, and some other parameters of the task. Furthermore, the configuration of play should be set here as well. Therefore, the following two classes should be here:
 
 - [your robot][your task]EnvCfg: [your task]EnvCfg
 - [your robot][your task]EnvCfg_PLAY: [your robot][your task]EnvCfg
 
 <H3>__init__.py</H3>
+
 Here is where we register the task. More [detail](https://isaac-sim.github.io/IsaacLab/source/tutorials/03_envs/register_rl_env_gym.html) is provided.
 
 Here is the template of register file.
