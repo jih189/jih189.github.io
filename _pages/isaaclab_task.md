@@ -49,7 +49,7 @@ The agent directory is where you build the task configurations for different rob
 
 Now, I will give more detail of each modules.
 
-<H3>agents/</H43>
+<H3>agents/</H3>
 
 Here is the directory where you set the model parameter for each RL library. You can check the example from [here](https://github.com/isaac-sim/IsaacLabExtensionTemplate/tree/dcebe2325631917123912ee0220288f412ac256a/exts/ext_template/ext_template/tasks/locomotion/velocity/config/anymal_d/agents).
 
