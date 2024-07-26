@@ -22,16 +22,6 @@ python scripts/rename_template.py your_fancy_extension_name
 <H2> Template Explanation </H2>
 
 In this section, I will give a purpose explanation about important directories and files in the template.
-<!-- 
-### `IsaacLabExtensionTemplate/`
-- **`main/`**: Contains the main application code and resources.
-  - **`java/`**: Source code for the main application.
-    - `Main.java`: The entry point of the application.
-  - **`resources/`**: Configuration files and other resources needed by the application.
-    - `application.properties`: Application configuration settings.
-  - **`webapp/`**: Web application resources.
-    - `index.html`: The main HTML file for the web interface. -->
-
 
 ### `IsaacLabExtensionTemplate/`
 - **`exts/`**: Your extensions to the IsaacLab.
@@ -43,15 +33,15 @@ In this section, I will give a purpose explanation about important directories a
             - **`tasks/`**: This direcotry contains all tasks of your project.
                 - **`locomotion/`**: Tasks related to locomotion such as legged robot.
                     - **`velocity/`**: Directory for the velocity task, where the robot's movement is controlled based on velocity.
-                        - **`config/`**:
-                            - **`anymal_d/`**:
-                                - **`agents/`**:
-                                    - `__init__.py`:
-                                    - `rsl_rl_cfg.py`:
-                                - `__init__.py`:
-                                - `flat_env_cfg.py`:
-                                - `rough_env_cfg.py`:
-                            - `__init__.py`:
+                        - **`config/`**: Contains all definition the robot for RL.
+                            - **`anymal_d/`**: definition of anymal_d
+                                - **`agents/`**: Contains all configuration files( or API file) for specific RL library to understand your task.
+                                    - `__init__.py`: If you have configuration file for rsl_rl here, then you should import it here. If you do not have rsl_rl here, then you do not need this file.
+                                    - `rsl_rl_cfg.py`: The configuration file for rsl_rl to understand your task.
+                                - `__init__.py`: <span style="color: green;">Registration file.</span> You registrate your task with your robot here. This is important file. Without this, training and playing will not recognize it.
+                                - `flat_env_cfg.py`: The configuration file of your env with robot.
+                                - `rough_env_cfg.py`: The configuration file of your env with robot.
+                            - `__init__.py`: Empty here.
                         - **`mdp/`**: You can overwrite the mdp here.
                             - `__init__.py`: Include your overwriten in the mdp.
                             - `curriculumns.py`: Defines the way how you increase the task's difficulty as the agent training progess.
