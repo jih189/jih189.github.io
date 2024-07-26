@@ -47,7 +47,45 @@ The agent directory is where you build the task configurations for different rob
     - `__init__.py` # used to register the task.
     - `[your robot]_[your task]_env_cfg.py` # you can use whatever name you want here.
 
-<H4>agents/</H4>
+Now, I will give more detail of each modules.
+
+<H3>agents/</H43>
 Here is the directory where you set the model parameter for each RL library. You can check the example from [here](https://github.com/isaac-sim/IsaacLabExtensionTemplate/tree/dcebe2325631917123912ee0220288f412ac256a/exts/ext_template/ext_template/tasks/locomotion/velocity/config/anymal_d/agents).
 
-<H4>[your robot]_[your task]_env_cfg.py</H4>
+<H3>[your robot]_[your task]_env_cfg.py</H3>
+This file defines how the robot should be set for the task. For example, set the scene robot, set the random range, and some other parameters of the task. Furthermore, the configuration of play should be set here as well. Therefore, the following two classes should be here:
+
+- [your robot][your task]EnvCfg: [your task]EnvCfg
+- [your robot][your task]EnvCfg_PLAY: [your robot][your task]EnvCfg
+
+<H3>__init__.py</H3>
+Here is where we register the task. More [detail](https://isaac-sim.github.io/IsaacLab/source/tutorials/03_envs/register_rl_env_gym.html) is provided.
+
+Here is the template of register file.
+```
+import gymnasium as gym
+
+from . import agents, [your robot]_[your task]_env_cfg
+
+gym.register(
+    id="Isaac-[your task]-[your robot]-v[version number]",
+    entry_point="omni.isaac.lab.envs:ManagerBasedRLEnv",
+    disable_env_checker=True,
+    kwargs={
+        "env_cfg_entry_point": [your robot]_[your task]_env_cfg.[your robot][your task]EnvCfg,
+        "[RL library]_cfg_entry_point": [link to RL library configuration file],
+        ...
+    },
+)
+
+gym.register(
+    id="Isaac-[your task]-[your robot]-Play-v[version number]",
+    entry_point="omni.isaac.lab.envs:ManagerBasedRLEnv",
+    disable_env_checker=True,
+    kwargs={
+        "env_cfg_entry_point": [your robot]_[your task]_env_cfg.[your robot][your task]EnvCfg_PLAY,
+        "[RL library]_cfg_entry_point": [link to RL library configuration file],
+        ...
+    },
+)
+```
