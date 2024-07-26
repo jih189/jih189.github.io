@@ -10,4 +10,4 @@ As a beginner in reinforcement learning (RL), I'm eager to dive into this field.
 
 - <a href="/isaaclab_install">1. Install Isaac Lab (Docker)</a>
 - <a href="/isaaclab_project">2. Start New RL Project </a>
-- <a href="/isaaclab_task">3. Define Task </a>
+- <a href="/isaaclab_task">3. Create Your Own Task </a>
