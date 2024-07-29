@@ -35,7 +35,7 @@ In the IsaacLab, they provide script to build env for IsaacLab on the IsaacSim.
 <H4> 1. Clone the Isaac Lab from https://github.com/isaac-sim/IsaacLab </H4>
 <H4> 2. Go to the directory IsaacLab/docker, you can run following code</H4>
 
-<pre style="font-size: 15px;background-color: #000000; padding: 10px;">
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
 <code>./container.sh start isaaclab</code>
 </pre>
 
