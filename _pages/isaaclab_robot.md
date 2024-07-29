@@ -26,3 +26,11 @@ Once convertion is done, a Isaac Sim Python window should pop up. However, you c
 Here is the example of Fetch Robot in IsaacLab:
 
 <img src="/images/isaaclab_robot_img1.png" alt="import robot">
+
+You can refer your robot in your code with the following code:
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
+<code>from omni.isaac.lab_assets import ISAACLAB_ASSETS_DATA_DIR
+
+# ANYmal-C
+ANYMAL_C_USD_PATH = f"{ISAACLAB_ASSETS_DATA_DIR}/Robots/ANYbotics/ANYmal-C/anymal_c.usd"</code>
+</pre>
