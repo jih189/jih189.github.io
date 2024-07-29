@@ -34,9 +34,11 @@ You need to login to your nvidia account. Instead of clicking Organization > Ser
 In the IsaacLab, they provide script to build env for IsaacLab on the IsaacSim.
 <H4> 1. Clone the Isaac Lab from https://github.com/isaac-sim/IsaacLab </H4>
 <H4> 2. Go to the directory IsaacLab/docker, you can run following code</H4>
-```
-./container.sh start isaaclab
-```
+
+<pre style="font-size: 15px;">
+<code>./container.sh start isaaclab</code>
+</pre>
+
 This command will pull and update, then build the container.
 ```
 ./container.sh enter isaaclab
