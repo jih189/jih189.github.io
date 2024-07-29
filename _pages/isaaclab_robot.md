@@ -12,7 +12,7 @@ First of all, you need to provides the robot URDF. For example, for Fetch Robot,
 <code>cd /workspace/isaaclab
 ./isaaclab.sh -p source/standalone/tools/convert_urdf.py \
   <span style="color: yellow;"> [path to your urdf file]</span> \
-  source/extensions/omni.isaac.lab_assets/data/Robots/<span style="color: yellow;">[Company-Name]</span>/<span style="color: yellow;">[Robot-Name]</span>.usd \
+  source/extensions/omni.isaac.lab_assets/data/Robots/<span style="color: yellow;">[Company-Name]</span>/<span style="color: yellow;">[Robot-Name]</span>/<span style="color: yellow;">[Robot-Name]</span>.usd \
   --merge-joints \
   --make-instanceable</code>
 </pre>
