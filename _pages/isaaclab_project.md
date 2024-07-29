@@ -9,15 +9,15 @@ To build your own project, Nvidia Team has provide a pre-configured and customiz
 Due to the IsaacLab/source is mounted to your local machine, so I suggest to place your template into IsaacLab/source.
 
 In the container, you can enter the template by
-```
-cd /workspace/isaaclab/source/IsaacLabExtensionTemplate
-```
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
+<code>cd /workspace/isaaclab/source/IsaacLabExtensionTemplate</code>
+</pre>
 
 Throughout the repository, the name ext_template only serves as an example and it provides a script to rename all the references to it automatically:
-```
-# Rename all occurrences of ext_template (in files/directories) to your_fancy_extension_name
-python scripts/rename_template.py your_fancy_extension_name
-```
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
+<code><span style="color: yellow;"># Rename all occurrences of ext_template (in files/directories) to your_fancy_extension_name</span>
+python scripts/rename_template.py your_fancy_extension_name</code>
+</pre>
 
 <H2>Start Your Project</H2>
 In IsaacLab, a "task" encompasses everything involved in the training process. Specifically, it includes both the [environment](https://isaac-sim.github.io/IsaacLab/source/features/environments.html) and the robot(agent). To start your own RL project, you'll need to configure both the environment and the robot within this task.

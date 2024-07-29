@@ -65,8 +65,8 @@ This file defines how the robot should be set for the task. For example, set the
 Here is where we register the task. More [detail](https://isaac-sim.github.io/IsaacLab/source/tutorials/03_envs/register_rl_env_gym.html) is provided.
 
 Here is the template of register file.
-```
-import gymnasium as gym
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
+<code>import gymnasium as gym
 
 from . import agents, [your robot]_[your task]_env_cfg
 
@@ -90,5 +90,5 @@ gym.register(
         "[RL library]_cfg_entry_point": [link to RL library configuration file],
         ...
     },
-)
-```
+)</code>
+</pre>

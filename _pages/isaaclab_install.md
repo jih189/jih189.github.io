@@ -40,11 +40,11 @@ In the IsaacLab, they provide script to build env for IsaacLab on the IsaacSim.
 </pre>
 
 This command will pull and update, then build the container.
-<pre style="font-size: 15px;background-color: #000000; padding: 10px;">
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
 <code>./container.sh enter isaaclab</code>
 </pre>
 This command will let you enter the container. You can open multiple terminals and run this command to enter the container.
-<pre style="font-size: 15px;background-color: #000000; padding: 10px;">
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
 <code>./container.sh stop isaaclab</code>
 </pre>
 
