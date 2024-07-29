@@ -35,18 +35,19 @@ In the IsaacLab, they provide script to build env for IsaacLab on the IsaacSim.
 <H4> 1. Clone the Isaac Lab from https://github.com/isaac-sim/IsaacLab </H4>
 <H4> 2. Go to the directory IsaacLab/docker, you can run following code</H4>
 
-<pre style="font-size: 15px;">
+<pre style="font-size: 15px;background-color: #000000; padding: 10px;">
 <code>./container.sh start isaaclab</code>
 </pre>
 
 This command will pull and update, then build the container.
-```
-./container.sh enter isaaclab
-```
+<pre style="font-size: 15px;background-color: #000000; padding: 10px;">
+<code>./container.sh enter isaaclab</code>
+</pre>
 This command will let you enter the container. You can open multiple terminals and run this command to enter the container.
-```
-./container.sh stop isaaclab
-```
+<pre style="font-size: 15px;background-color: #000000; padding: 10px;">
+<code>./container.sh stop isaaclab</code>
+</pre>
+
 This command will stop the container and remove it. If you directly, close the container, then you have to use __docker rm__ to rm the container.
 
 For more information about using IsaacLab in docker, please check [this](https://isaac-sim.github.io/IsaacLab/source/deployment/docker.html).
