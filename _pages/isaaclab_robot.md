@@ -4,7 +4,7 @@ title: "Import Robot to IsaacLab"
 permalink: /isaaclab_robot
 ---
 
-In this tutorial, we will show you how to import a robot to IsaacLab. In this tutorial, we follow how the Nvidia Team suggests to (organizing custom assets)[https://github.com/isaac-sim/IsaacLab/tree/main/source/extensions/omni.isaac.lab_assets] in IsaacLab, and I will use (Fetch robot)[https://github.com/ZebraDevs/fetch_ros.git] as an example.
+In this tutorial, we will show you how to import a robot to IsaacLab. In this tutorial, we follow how the Nvidia Team suggests to [organizing custom assets](https://github.com/isaac-sim/IsaacLab/tree/main/source/extensions/omni.isaac.lab_assets) in IsaacLab, and I will use [Fetch robot](https://github.com/ZebraDevs/fetch_ros.git) as an example.
 
 First of all, you need to provides the robot URDF. For example, for Fetch Robot, you can find it in the `fetch_description` package. You can download the fetch_ros in the home directory first. Then, you can come back to the isaaclab home and run the command to convert the URDF to SDF.
 
