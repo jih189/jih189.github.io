@@ -32,4 +32,4 @@ Priyam Parashar , Aayush Naik , Jiaming Hu , Henrik I. Christensen (2021). <b>A 
 
 Robotics Related Skills
 ======
-OMPL, ROS, and CoppeliaSim
+OMPL, ROS, IsaacLab/Sim, and CoppeliaSim
