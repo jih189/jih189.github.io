@@ -205,6 +205,11 @@ gym.register(
 
 <span style="color: red;">Because we create our task in template, the script `list_envs.py` will not show it.</span>
 
+Once you have done the task, you need to setup your python package by
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
+<code>python -m pip install -e exts/[your template name]/.</code>
+</pre>
+
 <H3>Train Robot</H3>
 
 Because we develop in the template, we need to setup the RL library interface to train. Go to the `scripts`, you can place the RL library interface there. You can copy the examples from [here](https://github.com/isaac-sim/IsaacLab/tree/main/source/standalone/workflows). Then, you need to modify the following part to make the train script to find import your tasks.
