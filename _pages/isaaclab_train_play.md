@@ -225,6 +225,14 @@ So now you can train by the following command in the root of template
 <code>python scripts/skrl/train.py --task [your task name ] --headless</code>
 </pre>
 
+<H3>Visualize the Training</H3>
+
+You can run the following command to visualize the training
+<pre style="font-size: 15px;color: white;background-color: #000000; padding: 10px;">
+<code>tensorboard --logdir logs/[rl library]/[your task name]/</code>
+</pre>
+
+Then, you can open the browser and go to `localhost:6006` to see the training result.
 
 <H3>Play Robot</H3>
 
