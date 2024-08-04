@@ -250,3 +250,9 @@ Then, you can check your trained policy with
 Here is the example of my result
 
 <img src="/images/fetch_reach.png" alt="play fetch reach">
+
+Here is the [example code](https://github.com/jih189/isaaclab_example)
+
+Here is the example of using Fetch robot to open the drawer.
+
+<img src="/images/fetch_open_drawer.png" alt="play fetch reach">
