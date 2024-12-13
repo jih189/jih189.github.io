@@ -14,11 +14,11 @@ Current Research Topics
 ======
 My primary research revolves around task and motion planning for mobile robots, with a particular emphasis on home service robots. For more detail, I am maintainly focus on the following topics to build the mobile robot system better.
 
-#### 1. Foliation Planning (Constrained Motion Planning in Foliated Manifolds)
+### 1. Foliation Planning (Constrained Motion Planning in Foliated Manifolds)
     
 My research focuses on leveraging foliated manifold structures to model manipulation tasks with greater precision and to design efficient motion planning algorithms for identifying feasible solutions. This approach enhances task representation compared to traditional multi-modal motion planning methods, offering improved precision. Furthermore, unlike reinforcement learning (RL), our algorithms provide guarantees of completeness and generalization, making them robust for a wide range of applications. I am now planning to incorporate parallelism using GPU acceleration to further enhance the efficiency of the planning process. By leveraging the computational power of GPUs, foliated planning can provide even more effciency in terms of planning time to acheive industry need.
 
-#### 2. Rearrangement Planning for Mobile Robot
+### 2. Rearrangement Planning for Mobile Robot
 
 My research focuses on generating efficient plans for indoor object rearrangement problems based on a specified desired arrangement. Indoor rearrangement is a complex, NP-hard problem due to object dependencies and the limited space available for buffer allocation. This complexity is further exacerbated when the robot must frequently relocate itself for each manipulation because it cannot access all objects from a single position. Unlike most existing approaches that rely on learning-based methods to estimate the desired arrangement, my work emphasizes planning efficiency for given start and goal configurations, while also providing guarantees of completeness.
 
