@@ -21,6 +21,14 @@ In this experiment demonstration, the robot successfully detects the Rubik's Cub
     </video>
 </center>
 
+Here is the example of rearrangement planning to organize tabletop objects.
+
+<center>
+    <video width="640" height="480" controls>
+        <source src="/videos/rearrangement.mp4" type="video/mp4">
+    </video>
+</center>
+
 ASSEMBLY PROJECT(2018-2019)
 ======
 The [Assembly project](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qsb8eYwAAAAJ&citation_for_view=qsb8eYwAAAAJ:u-x6o8ySG0sC) entails designing an end-to-end pipeline for assembling products from individual parts using two UR5 robotic arms. This pipeline encompasses three primary stages: perception, planning, and execution.
