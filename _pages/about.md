@@ -25,7 +25,9 @@ My research focuses on generating efficient plans for indoor object rearrangemen
 Publications
 ======
 
-Jiaming Hu<sup>*</sup>, Shrutheesh Raman Iyer<sup>*</sup>, Jiawei Wang and Henrik I. Christensen (2024). <b>Motion Planning in Foliated Manifolds using Repetition Roadmap</b> Robotics: Science and Systems (RSS).
+Jiaming Hu, Jan Szczekulski, Sudhansh Peddabomma, Henrik I. Christensen(2025). <b>Planning for Tabletop Object Rearrangement</b>. IEEE International Conference on Robotics and Automation (ICRA).
+
+Jiaming Hu<sup>*</sup>, Shrutheesh Raman Iyer<sup>*</sup>, Jiawei Wang and Henrik I. Christensen (2024). <b>Motion Planning in Foliated Manifolds using Repetition Roadmap</b>. Robotics: Science and Systems (RSS).
 
 Shrutheesh Raman Iyer, Anwesan Pal, Jiaming Hu, Akanimoh Adeleye, Aditya Aggarwal and Henrik I. Christensen (2023). <b>Household navigation and manipulation for everyday object rearrangement tasks</b>. International Conference on Robotic Computing (IRC).
 
