@@ -45,4 +45,4 @@ Priyam Parashar , Aayush Naik , Jiaming Hu , Henrik I. Christensen (2021). <b>A 
 
 Robotics Related Skills
 ======
-OMPL, ROS1/2, IsaacLab/Sim, and CoppeliaSim, Moveit! 1 and 2, Curobo, Nav 2
+OMPL, ROS1/2, IsaacLab/Sim, and CoppeliaSim, Moveit! 1 and 2, Curobo, Nav 2, Cuda Programming
