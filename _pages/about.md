@@ -22,6 +22,10 @@ My research focuses on leveraging foliated manifold structures to model manipula
 
 My research focuses on generating efficient plans for indoor object rearrangement problems based on a specified desired arrangement. Indoor rearrangement is a complex, NP-hard problem due to object dependencies and the limited space available for buffer allocation. This complexity is further exacerbated when the robot must frequently relocate itself for each manipulation because it cannot access all objects from a single position. Unlike most existing approaches that rely on learning-based methods to estimate the desired arrangement, my work emphasizes planning efficiency for given start and goal configurations, while also providing guarantees of completeness.
 
+Preprint
+=====
+Jiaming Hu, Jiawei Wang, Henrik I. Christensen(2025). <b>cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning</b>. https://arxiv.org/abs/2505.06791
+
 Publications
 ======
 
