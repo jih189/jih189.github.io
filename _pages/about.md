@@ -24,10 +24,12 @@ My research focuses on generating efficient plans for indoor object rearrangemen
 
 Preprint
 =====
-Jiaming Hu, Jiawei Wang, Henrik I. Christensen(2025). <b>cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning</b>. https://arxiv.org/abs/2505.06791
+Jiaming Hu, Jiawei Wang, Henrik I Christensen(2025). <b>Mobile Manipulation Planning for Tabletop Rearrangement</b>. https://arxiv.org/pdf/2505.18732. 
 
 Publications
 ======
+
+Jiaming Hu, Jiawei Wang, Henrik I. Christensen(2025). <b>cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning</b>. Workshop on Motion Planning and Control via Parallelization, Robotics: Science and Systems (RSS).
 
 Jiaming Hu, Jan Szczekulski, Sudhansh Peddabomma, Henrik I. Christensen(2025). <b>Planning for Tabletop Object Rearrangement</b>. IEEE International Conference on Robotics and Automation (ICRA).
 
