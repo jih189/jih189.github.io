@@ -10,4 +10,6 @@ Hi. My name is Jiaming Hu. Here are some notes I made while I am studying new ma
 
 - <a href="/isaaclab">Isaac Lab tutorial</a>
 
+- <a href="/control">Robot Arm Control tutorial</a>
+
 Currently, this tutorial is still under development.
