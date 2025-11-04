@@ -32,9 +32,25 @@ Publications
   </div>
 </div>
 
-Jiaming Hu, Jan Szczekulski, Sudhansh Peddabomma, Henrik I. Christensen(2025). <b>Planning for Tabletop Object Rearrangement</b>. IEEE International Conference on Robotics and Automation (ICRA).
 
-Jiaming Hu<sup>*</sup>, Shrutheesh Raman Iyer<sup>*</sup>, Jiawei Wang and Henrik I. Christensen (2024). <b>Motion Planning in Foliated Manifolds using Repetition Roadmap</b>. Robotics: Science and Systems (RSS).
+<br>
+
+
+<div style="display: flex; align-items: flex-start; gap: 16px;">
+  <img src="/images/rearragement_planning.png" alt="Rearrangement Planning" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
+  <div>
+    Jiaming Hu, Jan Szczekulski, Sudhansh Peddabomma, Henrik I. Christensen (2025). <b>Planning for Tabletop Object Rearrangement</b>. IEEE International Conference on Robotics and Automation (ICRA).
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; align-items: flex-start; gap: 16px;">
+  <img src="/images/foliation_planning.png" alt="Foliation Planning" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
+  <div>
+    Jiaming Hu<sup>*</sup>, Shrutheesh Raman Iyer<sup>*</sup>, Jiawei Wang, Henrik I. Christensen (2024). <b>Motion Planning in Foliated Manifolds using Repetition Roadmap</b>. Robotics: Science and Systems (RSS).
+  </div>
+</div>
 
 Shrutheesh Raman Iyer, Anwesan Pal, Jiaming Hu, Akanimoh Adeleye, Aditya Aggarwal and Henrik I. Christensen (2023). <b>Household navigation and manipulation for everyday object rearrangement tasks</b>. International Conference on Robotic Computing (IRC).
 
