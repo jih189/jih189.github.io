@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the Department of Computer Science and Engineering at UC San Diego. I have the privilege of conducting my research in the [Cognitive Robotics Lab](https://www.cogrob.org/), under the esteemed guidance of [Prof. Henrik I. Christensen](https://www.hichristensen.com/). 
+I am a robotics system engineer in a robotics start up and got my Ph.D. degree from the Department of Computer Science and Engineering at UC San Diego. I have the privilege of conducting my research in the [Cognitive Robotics Lab](https://www.cogrob.org/), under the esteemed guidance of [Prof. Henrik I. Christensen](https://www.hichristensen.com/). 
 
-Current Research Topics
+Previous Research Topics
 ======
-My primary research revolves around task and motion planning for mobile robots, with a particular emphasis on home service robots. For more detail, I am maintainly focus on the following topics to build the mobile robot system better.
+My primary research during my Phd career revolves around task and motion planning for mobile robots, with a particular emphasis on home service robots. For more detail, I am maintainly focus on the following topics to build the mobile robot system better.
 
 ### 1. Foliation Planning (Constrained Motion Planning in Foliated Manifolds)
     
@@ -22,14 +22,15 @@ My research focuses on leveraging foliated manifold structures to model manipula
 
 My research focuses on generating efficient plans for indoor object rearrangement problems based on a specified desired arrangement. Indoor rearrangement is a complex, NP-hard problem due to object dependencies and the limited space available for buffer allocation. This complexity is further exacerbated when the robot must frequently relocate itself for each manipulation because it cannot access all objects from a single position. Unlike most existing approaches that rely on learning-based methods to estimate the desired arrangement, my work emphasizes planning efficiency for given start and goal configurations, while also providing guarantees of completeness.
 
-Preprint
-=====
-Jiaming Hu, Jiawei Wang, Henrik I Christensen(2025). <b>Mobile Manipulation Planning for Tabletop Rearrangement</b>. https://arxiv.org/pdf/2505.18732. 
-
 Publications
 ======
 
-Jiaming Hu, Jiawei Wang, Henrik I. Christensen(2025). <b>cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning</b>. Workshop on Motion Planning and Control via Parallelization, Robotics: Science and Systems (RSS).
+<div style="display: flex; align-items: flex-start; gap: 16px;">
+  <img src="/image/gpu_motino_planning.png" alt="GPU Motion Planning" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
+  <div>
+    Jiaming Hu, Jiawei Wang, Henrik I. Christensen (2025). <b>cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning</b>. Workshop on Motion Planning and Control via Parallelization, Robotics: Science and Systems (RSS).
+  </div>
+</div>
 
 Jiaming Hu, Jan Szczekulski, Sudhansh Peddabomma, Henrik I. Christensen(2025). <b>Planning for Tabletop Object Rearrangement</b>. IEEE International Conference on Robotics and Automation (ICRA).
 
