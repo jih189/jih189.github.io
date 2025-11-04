@@ -52,9 +52,23 @@ Publications
   </div>
 </div>
 
-Shrutheesh Raman Iyer, Anwesan Pal, Jiaming Hu, Akanimoh Adeleye, Aditya Aggarwal and Henrik I. Christensen (2023). <b>Household navigation and manipulation for everyday object rearrangement tasks</b>. International Conference on Robotic Computing (IRC).
+<br>
 
-Jiaming Hu , Zhao Tang , Henrik I. Christensen (2023). <b>Multi-modal planning on re-grasping for stable manipulation</b>. International Conference on Intelligent Robots and Systems (IROS).
+<div style="display: flex; align-items: flex-start; gap: 16px;">
+  <img src="/images/home_project.png" alt="Home Project" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
+  <div>
+    Shrutheesh Raman Iyer, Anwesan Pal, Jiaming Hu, Akanimoh Adeleye, Aditya Aggarwal, and Henrik I. Christensen (2023). <b>Household navigation and manipulation for everyday object rearrangement tasks</b>. International Conference on Robotic Computing (IRC).
+  </div>
+</div>
+
+<br>
+
+<div style="display: flex; align-items: flex-start; gap: 16px;">
+  <img src="/images/foliation_regrasping.png" alt="Foliation Regrasping" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
+  <div>
+    Jiaming Hu, Zhao Tang, Henrik I. Christensen (2023). <b>Multi-modal planning on re-grasping for stable manipulation</b>. International Conference on Intelligent Robots and Systems (IROS).
+  </div>
+</div>
 
 Jiaming Hu<sup>*</sup>, Akanimoh Adeleye<sup>*</sup>, Henrik I. Christensen (2022). <b>Place-And-Pick-Based Re-Grasping Using Unstable Placement</b>. The International Symposium on Robotics Research (ISRR).
 
