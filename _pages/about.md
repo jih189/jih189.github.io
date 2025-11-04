@@ -26,7 +26,7 @@ Publications
 ======
 
 <div style="display: flex; align-items: flex-start; gap: 16px;">
-  <img src="/image/gpu_motino_planning.png" alt="GPU Motion Planning" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
+  <img src="/images/gpu_motion_planning.png" alt="GPU Motion Planning" style="width:180px; height:auto; border-radius:6px; box-shadow: 0 2px 6px rgba(0,0,0,0.07);">
   <div>
     Jiaming Hu, Jiawei Wang, Henrik I. Christensen (2025). <b>cpRRTC: GPU-Parallel RRT-Connect for Constrained Motion Planning</b>. Workshop on Motion Planning and Control via Parallelization, Robotics: Science and Systems (RSS).
   </div>
