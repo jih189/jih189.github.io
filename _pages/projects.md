@@ -7,11 +7,11 @@ redirect_from:
   - /projects
 ---
 
-HOME ROBOT PROJECT(Current)
+HOME ROBOT PROJECT
 ======
 Intelligent home robots: An intelligent home robot is exemplified by a robot that can “reset” your home or put away the groceries or go fetch the coffee from the kitchen. The robot is required to operate in a semi-structured setting, understand the semantic organization of the home and manipulate objects to solve its tasks. A key part of the project is natural interaction with human users and other agents in the environment.
 
-I am responsible for the task and motion planning part to handle where and how the robot will pick and place the object or manipulate the environment if place is infeasible.
+I was responsible for the task and motion planning part to handle where and how the robot will pick and place the object or manipulate the environment if place is infeasible.
 
 In this experiment demonstration, the robot successfully detects the Rubik's Cube, initiating a sequence to place it into a drawer located in the meeting room. Once identified, it navigates to the living room to find the designated drawer. Upon reaching the drawer, it identifies its closed state, prompting the need to open it. Due to its singular arm, the robot temporarily places the cube in an intermediate location before addressing the drawer. However, facing an obstacle in opening the drawer with its current configuration, the robot adopts a method of slight movement adjustments, executing subtle back-and-forth motions until it achieves the necessary pose to open the drawer and deposit the cube inside.
 
